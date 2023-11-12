@@ -2,7 +2,7 @@ import random
 wonC = 0
 wonK = 0
 turns = int(input('How many turns? '))
-for counter in range(0, turns):
+for _ in range(turns):
     doors = [0, 0, 0]
     doors[random.randint(0, 2)] = 1
     a = random.randint(1, 3)
